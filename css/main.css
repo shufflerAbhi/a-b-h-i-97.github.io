@@ -1,0 +1,50 @@
+
+body {
+    margin: 0px;
+}
+
+#bg-image {
+    background: linear-gradient(0deg,rgba(69,173,168,0.75),rgba(69,173,168,0.75)), url("../assets/cover.jpg");   
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10vw;
+    color: E5FCC2;
+}
+
+hr {
+    width: 45vw;
+    height: 1px;
+    background-color: E5FCC2;
+    opacity: 0.6;
+}
+
+#pw-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 6vw;
+    color: E5FCC2;
+}
+
+@media screen and (min-width: 750px) {
+    #name-text {
+        font-size: 6vw;
+    }
+
+    hr {
+        width: 35vw;
+    }
+
+    #pw-text {
+        font-size: 3vw;
+    }
+}
