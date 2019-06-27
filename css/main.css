@@ -77,6 +77,33 @@ body {
     border-radius: 50%;
 }
 
+#articles-section-container {
+    padding: 0 3.5vh 0 3.5vh;
+    background-color: rgba(229,252,194,0.5);
+}
+
+.article-card>a {
+    text-decoration: none;    
+}
+
+.article-title {
+    text-decoration: underline;
+    color: 594F4F;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.article-date {
+    text-align: right;
+    color: 45ADA8;
+}
+
+.articles-hr {
+    border-top: 1px solid 594F4F;
+    margin: 2vh 0 2vh 0;
+    opacity: 0.6;
+}
+
 #experience-section-container {
     padding: 0 3.5vh 0 3.5vh;
 }
@@ -204,6 +231,12 @@ body {
         margin-right: auto;
     }
 
+    .article-card, .articles-hr {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .experience-card {
         width: 500px;
         margin-left: auto;
@@ -246,6 +279,10 @@ body {
         text-align: left;
     }
 
+    .article-card, .articles-hr {
+        width: 80%;
+    }
+
     .experience-card {
         display: flex;
         flex-direction: row;
@@ -286,6 +323,11 @@ body {
     #about-container {
         width: 950px;
     }
+
+    .article-card, .articles-hr {
+        width: 950px;
+    }
+
     .experience-card {
         width: 950px;
         margin-left: auto;
